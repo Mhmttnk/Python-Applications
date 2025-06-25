@@ -27,7 +27,6 @@ cd not-defteri-uygulamasi
 python not_defteri.py
 
 3.Kullanıcı ismi kontrolü için:
-
 İsimler.txt dosyasına geçerli isimleri satır satır yazmalısınız.
 Kullanıcının girdiği isim bu listede yoksa giriş yapılmaz.
 

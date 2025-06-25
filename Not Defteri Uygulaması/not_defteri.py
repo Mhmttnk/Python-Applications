@@ -10,7 +10,7 @@ def entry():
     
     print("Lutfen Isminizi Giriniz: ")
     while True:
-        global name # name değişkenini fonksiyon dışında tanımlamamıza rağmen derleyici, fonksiyon içerisinde  locak değişkenmiş gibi görmesin diye tekrar global olarak tanımladık
+        global name # name değişkenini fonksiyon dışında tanımlamamıza rağmen derleyici, fonksiyon içerisinde  local değişkenmiş gibi görmesin diye tekrar global olarak tanımladık
         name = input().strip().lower()
         name_cf=name.casefold() # Dil üzerinde bazı karakter dönüşümleri yapar 
         
